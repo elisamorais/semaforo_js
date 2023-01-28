@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5vh;
+}
+
+h1 {
+    font-size: 35px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: blue;
+}
+
+.button {
+    width: 100px;
+    margin: 10px;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 15px;
+    background: black;
+
+}
+#red {
+    color: red;
+}
+
+#yellow {
+    color: yellow;
+}
+
+#green {
+    color: greenyellow;
+}
+
+#automatic {
+    color: wheat;
+}
